@@ -1,0 +1,108 @@
+
+
+/* Start Pricing */
+
+.pricing-content{
+    margin-top:10%;
+    padding: 2% 7%;
+}
+
+.pricing .basic{
+    color:grey;
+
+}
+.pricecol
+{
+           width:30%;
+           min-height:30%;
+           border-radius:10px;
+           position:relative;
+           padding:35px 0px;
+           text-align:center;
+           float:left;
+           margin-left:20px;
+           border: 2px solid grey;
+           
+           
+        
+}
+
+
+.icon
+{
+width:60px;
+height:60px;
+border-radius:100%;
+color:#fff;
+text-align:center;
+position:relative;
+margin:0 auto;
+
+}
+.icon i
+{
+font-size:30px;
+position:relative;
+top:15px;
+}
+.num-price{
+ 
+    font-weight:900;
+    font-size:30px;
+  
+
+}
+.pricecol:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0 ;
+    top: 0;
+    left: 0;
+    background-color: #0b0c0c;
+    transition: .5s;
+    opacity:.5;
+}
+.pricecol:hover:after{
+    width: 100%;
+    height: 100%;
+}
+.pricing-dolarrs{
+    width:30%;
+    height:66px;
+    border:4px solid #3a6cf4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0  33%;
+}
+
+
+h3
+{
+
+text-align:center;
+text-align:center;
+color:grey;
+margin-bottom:10px;
+}
+.pricing-p{
+    color:grey;
+    margin-top:20px;
+    font-size:15px;
+    text-align: center;
+    margin: 20px;
+    padding:7%;
+}
+.button
+{  font-size:16px;
+     margin-top:15px;
+     border:#3a6cf4 2px solid;
+     padding: 2% 0;
+}
+.button span
+{ display:inline-block; padding:10px 15px; 
+}
+/* End  Pricing */

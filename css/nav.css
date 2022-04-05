@@ -1,0 +1,114 @@
+/* google fonts poppins */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior: smooth;
+}
+/*Start common component */
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+li{
+    list-style: none;
+}
+/* End common component */
+/* Start header */
+.header-content{
+display: flex;
+
+}
+.header-nav{
+    width:100%;
+    height: 8%;
+    background-color: rgb(87, 87, 87);
+    position:fixed;
+    display: flex;
+flex-direction: row;
+opacity: 1;
+z-index: 1000;
+}
+.header-img{
+    height: 100%;
+    margin-left:14%;
+    margin-right: 10%;
+}
+.nav{
+display: flex;
+margin-left: 15%;
+}
+.nav-link{
+    color:red;
+   
+}
+.nav-list{
+margin-left:2%;
+    padding:5% 2%;
+    font-size:1em;
+    font-weight:300;
+}
+/* End header */
+/* .............................................. */
+/* Start Main */
+.main-content{
+ width: max-content;   
+}
+.overlay {
+    width: 100%;
+ background-color: black;   
+ background-image: url(../images/header-background.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ color:white;
+ padding:39% 24%;
+}
+.overlay-h1{
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+   .overlay-p{
+  margin-top:-1em;
+  margin-bottom: 1em;
+  color:beige;
+  text-align: center;
+  }
+ 
+  .overlay-btn{
+    font-size: 1.5em;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding:2% 3%;
+    border-radius:8% ;
+    -webkit-border-radius:8% ;
+    -moz-border-radius:8% ;
+    -ms-border-radius:8% ;
+    -o-border-radius:8% ;
+    cursor: pointer;  
+    margin-left: 7em;
+}
+  .overlay-btn:hover{
+      background-color: #b1b1b1;
+      opacity:.6;
+      cursor: pointer;
+  }
+  .overlay-bbn{
+      background-color: blue;
+     color: white;
+      margin-left:2em; 
+      opacity: transparent;
+  } 
+
+/* End Main */
